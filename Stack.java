@@ -61,4 +61,14 @@ public class Stack{
 		}
 		return doubledArray;
 	}
+		
+	// this returns true if stack is empty i.e size equals to 0
+	public boolean isEmpty(){
+		return index == -1;
+	}
+
+	// this method returns number of elements in stack
+	public int size(){
+		return index+1;
+	}
 }
