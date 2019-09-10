@@ -1,22 +1,10 @@
 public class BubbleSort{
 
 	private int count =0;
-	
 	private int[] intArray;
-	private int index = -1;
 	
-	public BubbleSort(int size){
-		intArray = new int[size];
-	}
-	
-	public void addElement(int i){
-		if(index >= intArray.length){
-			System.out.println("Array is Full");
-			return;
-		}
-		index++;
-		intArray[index]=i;
-		return;
+	public BubbleSort(int[] ary){
+		intArray = ary;
 	}
 	
 	public void display(){
@@ -29,18 +17,15 @@ public class BubbleSort{
 		boolean flag = true;
 		while(flag){
 		 flag = false;
-			for(var i=0;i<intArray.length;i++){
-				for(var j=i+1;j<intArray.length;j++){
-					if(intArray[i] > intArray[j]){
-						count++;	
-						int swap = intArray[i];
-						intArray[i] = intArray[j];							intArray[j] = swap;
-						flag = true;
-						break;
-					}
+			for(var i=1;i<intArray.length;i++){
+				if(intArray[i-1] > intArray[i]){
+					count++;	
+					int swap = intArray[i-1];
+					intArray[i-1] = intArray[i];							      intArray[i] = swap;
+					flag = true;
 					break;
-				}	
-			}
+				}
+			}	
 		}
 	}
 	
