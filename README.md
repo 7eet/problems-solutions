@@ -1,11 +1,17 @@
 ## Solution of Programming Questions and Implementation of Data Structures and Algorithms
 
-**This repository contains:**
- - BubbleSort 
+**Data Structure and Algorithm-**
+ - *BubbleSort 
  - BinarySearch
  - InsertionSort
  - SelectionSort
- - Stack
+ - Stack*
+
+**Programming Solution:**
+ - *Factorial
+ - FizzBuzz
+ - ReverseString
+ - SumTwo*
 
 
 
