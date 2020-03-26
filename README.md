@@ -15,7 +15,7 @@
 ### String
  - _Reverse of String_
  - _Find duplicate from String_
-
+ - _Count the occurrence letter in a string._
 
 ### General Problems
  - _Factorial ->  calculate factorial of a given number (eg. 3! = 3 * 2 * 1 = 6)_
