@@ -18,6 +18,9 @@
  - _Count the occurrence letter._
  - _Remove the whitespaces._
 
+### Array
+ - _Number of left rotation_
+
 ### General Problems
  - _Factorial ->  calculate factorial of a given number (eg. 3! = 3 * 2 * 1 = 6)_
  - _FizzBuzz -> print "fizz" if number is divisible by 3 and "buzz" if number is divisible by 5 and if a number is divisible by both then prints "fizz buzz"_
