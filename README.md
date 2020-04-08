@@ -20,6 +20,7 @@
 
 ### Array
  - _Number of left rotation_
+ - _Find the occurrence of "n" in a array_
 
 ### General Problems
  - _Factorial ->  calculate factorial of a given number (eg. 3! = 3 * 2 * 1 = 6)_
